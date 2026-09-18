@@ -117,23 +117,8 @@ export default function HomePage() {
 
         {/* About Allyson */}
         <section className="bg-secondary/40 py-16">
-          <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-[0.8fr_1fr]">
+          <div className="mx-auto max-w-3xl px-5 text-center">
             <Reveal>
-              <div className="relative mx-auto max-w-sm">
-                <div
-                  aria-hidden
-                  className="absolute inset-0 rotate-3 rounded-[2rem] bg-petal-aqua/50"
-                />
-                <Image
-                  src="/images/allyson.png"
-                  alt="Allyson, the founder and florist behind LYPetal"
-                  width={560}
-                  height={560}
-                  className="relative aspect-square w-full rounded-[2rem] object-cover shadow-lg"
-                />
-              </div>
-            </Reveal>
-            <Reveal delay={120}>
               <p className="font-medium uppercase tracking-widest text-petal-coral-deep">
                 Meet the florist
               </p>
