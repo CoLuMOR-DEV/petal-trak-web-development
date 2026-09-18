@@ -9,25 +9,25 @@ const products = [
   {
     icon: Flower2,
     title: 'Signature Bouquets',
-    body: 'Seasonal blooms arranged by hand, wrapped in soft pastel paper and ready to gift.',
+    body: 'Handmade satin blooms stitched and shaped by hand, wrapped in soft pastel paper and ready to gift.',
     tint: 'bg-petal-blush',
   },
   {
     icon: Heart,
     title: 'Custom Arrangements',
-    body: 'Tell us the colors, the occasion, and the feeling — Allyson designs it just for you.',
+    body: 'Tell us the colors, the occasion, and the feeling — Allyson crafts your satin arrangement just for you.',
     tint: 'bg-petal-aqua',
   },
   {
     icon: Sparkles,
     title: 'Everyday Posies',
-    body: 'Small, cheerful bundles to brighten a desk, a bedside table, or an ordinary Tuesday.',
+    body: 'Small, cheerful satin bundles to brighten a desk, a bedside table, or an ordinary Tuesday — forever.',
     tint: 'bg-petal-sage',
   },
   {
     icon: Truck,
     title: 'Local Delivery',
-    body: 'Freshly cut and carefully delivered across the neighborhood, right to your door.',
+    body: 'Carefully packaged and delivered across the neighborhood, right to your door.',
     tint: 'bg-petal-yellow',
   },
 ]
@@ -52,15 +52,15 @@ export default function HomePage() {
             <div className="animate-fade-up">
               <span className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-1.5 text-sm font-medium text-secondary-foreground">
                 <Flower2 className="h-4 w-4 text-petal-coral-deep" />
-                Boutique flower studio
+                Boutique satin flower studio
               </span>
               <h1 className="mt-5 text-balance font-display text-5xl font-semibold leading-[1.05] text-foreground md:text-6xl">
-                Blooms made with love by{' '}
+                Satin blooms made with love by{' '}
                 <span className="text-petal-coral-deep">LYPetal</span>
               </h1>
               <p className="mt-5 max-w-md text-pretty text-lg leading-relaxed text-muted-foreground">
-                Handcrafted bouquets and custom arrangements for every little moment worth
-                celebrating. Fresh, seasonal, and always full of heart.
+                Handcrafted satin bouquets and custom arrangements for every little moment worth
+                celebrating. Keepsake blooms that never wilt — always full of heart.
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <Link
@@ -86,7 +86,7 @@ export default function HomePage() {
                 />
                 <Image
                   src="/images/hero-bouquet.png"
-                  alt="A soft pastel bouquet of freshly arranged seasonal flowers"
+                  alt="A soft pastel bouquet of handmade satin fabric flowers"
                   width={720}
                   height={720}
                   priority
@@ -108,9 +108,9 @@ export default function HomePage() {
             </h2>
             <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
               LYPetal began as a passion for turning ordinary days into something a little more
-              beautiful. Every arrangement is designed and assembled by hand using fresh, seasonal
-              stems — no two bouquets are ever quite the same. We believe flowers are the sweetest
-              way to say what words sometimes cannot.
+              beautiful. Every arrangement is designed and assembled by hand from delicate satin
+              fabric — no two bouquets are ever quite the same, and each one lasts a lifetime. We
+              believe flowers are the sweetest way to say what words sometimes cannot.
             </p>
           </Reveal>
         </section>
@@ -142,9 +142,9 @@ export default function HomePage() {
               </h2>
               <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
                 I&apos;m the hands, heart, and eye behind every LYPetal creation. What started as
-                arranging grocery-store stems on my kitchen table has grown into a little studio I
+                shaping scraps of satin ribbon on my kitchen table has grown into a little studio I
                 pour my whole heart into. I love learning what makes each person smile and
-                translating it into petals, color, and texture.
+                translating it into satin petals, color, and texture.
               </p>
               <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
                 When you order from LYPetal, you&apos;re not getting something off a shelf —
@@ -199,11 +199,11 @@ export default function HomePage() {
                 className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 animate-float rounded-full bg-white/30 blur-2xl"
               />
               <h2 className="text-balance font-display text-4xl font-semibold text-foreground">
-                Ready to send some flowers?
+                Ready for blooms that last forever?
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-pretty text-lg text-foreground/70">
-                Browse our premade bouquets or design your own. Join the LYPetal family and let
-                Allyson bring your bloom to life.
+                Browse our premade satin bouquets or design your own. Join the LYPetal family and
+                let Allyson bring your bloom to life.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <Link
