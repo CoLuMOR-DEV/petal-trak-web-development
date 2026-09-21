@@ -115,29 +115,44 @@ export default function HomePage() {
           </Reveal>
         </section>
 
-        {/* About Allyson */}
-        <section className="bg-secondary/40 py-16">
-          <div className="mx-auto max-w-3xl px-5 text-center">
-            <Reveal>
-              <p className="font-medium uppercase tracking-widest text-petal-coral-deep">
-                Meet the florist
-              </p>
-              <h2 className="mt-3 font-display text-4xl font-semibold text-foreground">
-                Hi, I&apos;m Allyson
-              </h2>
-              <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
-                I&apos;m the hands, heart, and eye behind every LYPetal creation. What started as
-                shaping scraps of satin ribbon on my kitchen table has grown into a little studio I
-                pour my whole heart into. I love learning what makes each person smile and
-                translating it into satin petals, color, and texture.
-              </p>
-              <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
-                When you order from LYPetal, you&apos;re not getting something off a shelf —
-                you&apos;re getting a piece of my craft, made just for your moment.
-              </p>
-            </Reveal>
-          </div>
-        </section>
+      {/* About Allyson */}
+      <section className="bg-secondary/40 py-16">
+      <div className="mx-auto grid max-w-5xl items-center gap-10 px-5 md:grid-cols-[minmax(0,20rem)_1fr] md:gap-14">
+      <Reveal>
+      <div className="relative mx-auto w-full max-w-xs overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-black/5 md:mx-0">
+      <div
+      aria-hidden
+      className="pointer-events-none absolute -left-6 -top-6 h-24 w-24 rounded-full bg-petal-blush/60 blur-2xl"
+      />
+      <Image
+      src="/images/allyson.jpg"
+      alt="Portrait of Allyson, the florist behind LYPetal"
+      width={640}
+      height={640}
+      className="relative aspect-square w-full object-cover"
+      />
+      </div>
+      </Reveal>
+      <Reveal className="text-center md:text-left">
+      <p className="font-medium uppercase tracking-widest text-petal-coral-deep">
+      Meet the florist
+      </p>
+      <h2 className="mt-3 font-display text-4xl font-semibold text-foreground">
+      Hi, I&apos;m Allyson
+      </h2>
+      <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
+      I&apos;m the hands, heart, and eye behind every LYPetal creation. What started as
+      shaping scraps of satin ribbon on my kitchen table has grown into a little studio I
+      pour my whole heart into. I love learning what makes each person smile and
+      translating it into satin petals, color, and texture.
+      </p>
+      <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
+      When you order from LYPetal, you&apos;re not getting something off a shelf —
+      you&apos;re getting a piece of my craft, made just for your moment.
+      </p>
+      </Reveal>
+      </div>
+      </section>
 
         {/* About Products */}
         <section className="mx-auto max-w-6xl px-5 py-16">
